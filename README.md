@@ -46,7 +46,7 @@ When available, you can do so from the download button above.
 
 1. Select the input .CSV data file.
 2. Select the input .CSV settings file.
-2b. (Optional) Type in a seed to use. You can include a string of characters to make the program always create the same assignments. Example: Setting the seed to "Duck" before creating will always make the assignments the same for anyone using the program with the seed "Duck".
+2. (Optional) Type in a seed to use. You can include a string of characters to make the program always create the same assignments. Example: Setting the seed to "Duck" before creating will always make the assignments the same for anyone using the program with the seed "Duck".
 3. Click create to create and choose where to save the output .CSV file.
 
 #### Getting the .CSV files
@@ -56,6 +56,32 @@ Getting the .CSV files from a Google Doc:
 2. Select File > Download > Comma-separated values (.CSV)
 ```
 This will create a .CSV for the current sheet. 
+
+#### .CSV File Requirements
+
+The .CSV input files have the following required column headers.
+
+##### Presenter Data .CSV File
+
+```
+-P1 First Name
+-P1 Last Name
+-Title
+-Audience
+-Type
+-Required Day
+-Required Time
+-Length
+-Required Room
+```
+##### Event Settings .CSV File
+
+```
+-Friday Timeslots
+-Friday Room Names
+-Saturday Timeslots
+-Saturday Room Names
+```
 
 ### Updating
 
@@ -86,12 +112,15 @@ Linux
 
 ## Built With
 
-* [Electron]() - Framework that the application is created upon.
-* [Boostrap/Popper]() - CSS framework
-* [jQuery]() - Javascript Library
-* [Moment]() - Clock/Time Library
-* [Papaparse]() - CSV Parsing Library
-* [Seedrandom]() - Seed Library
+Here are some of the frameworks and libraries used to create this application. Some are missing and will be added when possible.
+
+* [Electron](https://www.npmjs.com/package/electron) - Framework used to write cross-platform desktop applications using JavaScript
+* [Bootstrap/Popper](https://www.npmjs.com/package/bootstrap) - Sleek, intuitive, and powerful front-end framework for faster and easier web development.
+* [jQuery](https://www.npmjs.com/package/jquery) - Feature-rich Javascript Library.
+* [Moment](https://www.npmjs.com/package/moment) - A lightweight JavaScript date library for parsing, validating, manipulating, and formatting dates.
+* [Papaparse](https://www.npmjs.com/package/papaparse) - Javascript CSV Parsing Library.
+* [Seedrandom](https://www.npmjs.com/package/seedrandom) - Javascript seeded random number generator.
+* [Glob](https://www.npmjs.com/package/glob) - Assist in parsing .CSV files, as well as saving them.
 
 ## Contributing
 
