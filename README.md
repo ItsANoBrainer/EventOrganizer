@@ -1,4 +1,4 @@
-# Event Organizer by Christopher Usiak
+# Event Organizer by Christopher Usiak - v1.0.3
 
 This program will take an input .CSV data file containing presenters and information and requirements about them, an input .CSV settings file containing settings for the event, an optional seed, and then create an output .CSV file that has all the presenters organized into days, timeslots, and rooms based on them. 
 
@@ -129,6 +129,21 @@ If you wish to contribute to further devlopment, please contact me via email wit
 ## Versioning
 
 I use [Semantic Versioning](http://semver.org/) for versioning.
+
+### Future Features
+
+Here are some of the future features that I hope to add and work on for this application.
+
+```
+1. Auto Updating - Client will check for a newer update on startup, and every 10 minutes thereafter. If it finds one, it will prompt the user and auto-install the newest version if allowed.
+```
+
+### Changelog
+
+v1.0.3
+```
+- Intial Release
+```
 
 ## Authors
 
