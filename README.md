@@ -1,6 +1,11 @@
 # Event Organizer by Christopher Usiak - v1.0.3
 
-This program will take an input .CSV data file containing presenters and information and requirements about them, an input .CSV settings file containing settings for the event, an optional seed, and then create an output .CSV file that has all the presenters organized into days, timeslots, and rooms based on them. 
+This program will take an input .CSV data file containing presenters and information and requirements about them, an input .CSV settings file containing settings for the event, an optional seed, and then create an output .CSV file that has all the presenters organized into days, timeslots, and rooms based on them. On an algorithm level, it does the following:
+```
+- If the presenter has a required day/timeslot/room, it will assign them first.
+- Reserves multiple timeslots for presenters that have an presentation thats lasts multiple hourly timeslots
+- Randomly assigns remaining presenters, making sure two presentations in the same timeslot do not have the same primary presenter. (Future feature to make this all presenters assigned to that presentation.)
+```
 
 ## Getting Started
 
@@ -8,7 +13,7 @@ These instructions will show you how to download the application, install it to 
 
 ### Prerequisites
 
-Currently the only preqrequisites are a Windows OS, as the only installation file available is a .EXE. MacOS and Linux versions are readily available for publishing on each version release if wanted.
+Currently the only prerequisites are a Windows OS, as the only installation file available is a .EXE. MacOS and Linux versions are readily available for publishing on each version release if wanted.
 
 ```
 Windows OS [✔]
@@ -46,8 +51,8 @@ When available, you can do so from the download button above.
 
 1. Select the input .CSV data file.
 2. Select the input .CSV settings file.
-2. (Optional) Type in a seed to use. You can include a string of characters to make the program always create the same assignments. Example: Setting the seed to "Duck" before creating will always make the assignments the same for anyone using the program with the seed "Duck".
-3. Click create to create and choose where to save the output .CSV file.
+3. (Optional) Type in a seed to use. You can include a string of characters to make the program always create the same assignments. Example: Setting the seed to "Duck" before creating will always make the assignments the same for anyone using the program with the seed "Duck".
+4. Click create to create and choose where to save the output .CSV file.
 
 #### Getting the .CSV files
 Getting the .CSV files from a Google Doc:
@@ -135,7 +140,11 @@ I use [Semantic Versioning](http://semver.org/) for versioning.
 Here are some of the future features that I hope to add and work on for this application.
 
 ```
-1. Auto Updating - Client will check for a newer update on startup, and every 10 minutes thereafter. If it finds one, it will prompt the user and auto-install the newest version if allowed.
+- Multiple Presenters - Add support for checking multiple presenters instead of just the primary in the same timeslot so not to assign two sessions with the same people during the same timeslot. 
+- Auto Updating - Client will check for a newer update on startup, and every 10 minutes thereafter. If it finds one, it will prompt the user and auto-install the newest version if allowed.
+- Issue Dialogue Popup - A popup after clicking the create button that alerts you if there were any issues assigning presenters, and how many. Also mentioning to check the status log tab for more information. This popup will have a "download anyway" or "cancel" button.
+- Icon Update - Change the application icon to a white/brighter color instead of the dark gray so it can be seen on darker backgrounds.
+- Data Settings Tab Change - Turn the Data Settings tab into an Input Data tab used for verifying/viewing both input presenter data and input settings data
 ```
 
 ### Changelog
