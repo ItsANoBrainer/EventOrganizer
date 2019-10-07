@@ -1,5 +1,7 @@
 # Event Organizer by Christopher Usiak - v1.0.3
 
+![](https://i.imgur.com/4bKaAY8.png)
+
 This program will take an input .CSV data file containing presenters and information and requirements about them, an input .CSV settings file containing settings for the event, an optional seed, and then create an output .CSV file that has all the presenters organized into days, timeslots, and rooms based on them. On an algorithm level, it does the following:
 ```
 - If the presenter has a required day/timeslot/room, it will assign them first.
