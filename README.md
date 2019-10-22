@@ -19,7 +19,7 @@ Currently the only prerequisites are a Windows OS, as the only installation file
 
 ```
 Windows OS [✔]
-MacOS [✘]
+MacOS [✔]
 Linux [✘]
 ```
 
@@ -32,14 +32,16 @@ Windows OS - [Download](https://github.com/ItsANoBrainer/EventOrganizer/raw/mast
 ```
 For Windows you will only need to download the EventOrganizerInstaller.exe and run it on your computer.
 To download, select the download button above.
-Once installed, you will get a shortcut on your desktop, as well as be able to search it from the start menu.
+When ran, you will get a popup saying windows prevented an app from starting. Click "More Info" and then Run anyway. 
+After the install finishes, you will get a shortcut on your desktop, as well as be able to search it from the start menu.
 ```
 
-MacOS - Available by Request
+MacOS - [Download](https://github.com/ItsANoBrainer/EventOrganizer/raw/master/EventOrganizer.dmg)
 
 ```
 For MacOS you will only need to download the EventOrganizerInstaller.dmg and run it on your computer.
-When available, you can do so from the download button above.
+To download, select the download button above.
+When ran, drag the EventOrganizer.dmg to your Applications folder. You will get a popup saying "EventOrganizer" is an app downloaded from the internet. You will need to allow the install. Go to the search menu and type "Security & Privacy". Under the general tab at the bottom it will say "EventOrganizer" was blocked. Click the Open Anyway button.
 ```
 
 Linux - Available by Request
@@ -110,6 +112,9 @@ Windows OS
 MacOS
 
 ```
+1. Navigate to the Finder and go to Applications.
+2. Find EventOranizer and control+click.
+3. Click Move to Trash
 ```
 
 Linux
