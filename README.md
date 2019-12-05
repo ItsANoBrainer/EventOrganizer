@@ -152,6 +152,7 @@ Here are some of the future features that I hope to add and work on for this app
 - Issue Dialogue Popup - A popup after clicking the create button that alerts you if there were any issues assigning presenters, and how many. Also mentioning to check the status log tab for more information. This popup will have a "download anyway" or "cancel" button.
 - Icon Update - Change the application icon to a white/brighter color instead of the dark gray so it can be seen on darker backgrounds.
 - Data Settings Tab Change - Turn the Data Settings tab into an Input Data tab used for verifying/viewing both input presenter data and input settings data
+- In the output file, list the presenters that were not assigned below the list of ones that were.
 ```
 
 ### Changelog
