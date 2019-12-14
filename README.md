@@ -1,4 +1,4 @@
-# Event Organizer by Christopher Usiak - v1.0.3
+# Event Organizer by Christopher Usiak - v1.1.2
 
 ![](https://i.imgur.com/4bKaAY8.png)
 
@@ -156,6 +156,14 @@ Here are some of the future features that I hope to add and work on for this app
 ```
 
 ### Changelog
+
+v1.1.3
+```
+- Added support for up to 6 total presenters for an event. It will make sure none of those 6 are in the same timeslot.
+- Reformated output file:
+  - Shows all presenters that did not get assigned a timeslot.
+  - Shows all presenter info from the original data csv as well as the timeslot information
+```
 
 v1.0.3
 ```
