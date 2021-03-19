@@ -1,4 +1,4 @@
-# Event Organizer by Christopher Usiak - v1.1.2
+# Event Organizer by ItsANoBrainer - v1.1.2
 
 ![](https://i.imgur.com/4bKaAY8.png)
 
@@ -171,7 +171,7 @@ v1.0.3
 
 ## Authors
 
-* **Christopher Usiak** - *Application Developer* - [ItsANoBrainer](https://github.com/ItsANoBrainer)
+* **ItsANoBrainer** - *Application Developer* - [ItsANoBrainer](https://github.com/ItsANoBrainer)
 
 ## License
 
