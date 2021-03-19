@@ -176,8 +176,8 @@ v1.0.3
 ## License
 
 This project is licensed under the [ISC License](https://opensource.org/licenses/ISC). 
-By using this program you abide that this program is created and soley owned by Christopher Usiak.
-Christopher Usiak has the right to change any License or Ownership at any time.
+By using this program you abide that this program is created and soley owned by ItsANoBrainer.
+ItsANoBrainer has the right to change any License or Ownership at any time.
 
 ## Acknowledgments
 
